@@ -31,7 +31,7 @@ return [
 
         'primary' => [
             'method' => env('WHMCS_AUTH_TYPE', 'password'),
-            'url' => env('WHMCS_API_URL', 'http://host.foxcase.fr'),
+            'url' => env('WHMCS_API_URL', 'https://host.foxcase.fr'),
             'username' => env('WHMCS_USERNAME', 'SailorEudes'),
             'password' => env('WHMCS_PASSWORD', '28101996'),
             'access_key' => env('WHMCS_ACCESSKEY')
@@ -39,7 +39,7 @@ return [
 
         'secondary' => [
             'method' => env('WHMCS_AUTH_TYPE', 'token'),
-            'url' => env('WHMCS_API_URL', 'http://host.foxcase.fr'),
+            'url' => env('WHMCS_API_URL', 'https://host.foxcase.fr'),
             'identifier' => env('WHMCS_API_IDENTIFIER', '6zOrWcOGImAeIRfhsdvCIOZNkYXr8V3N'),
             'secret' => env('WHMCS_API_SECRET', '4UsvWX5UtKGyXbFq8BMz07hcoDXN3cpW'),
             'access_key' => env('WHMCS_API_ACCESSKEY')
