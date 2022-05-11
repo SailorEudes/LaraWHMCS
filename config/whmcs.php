@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'default' => 'primary',
+    'default' => 'secondary',
 
     /*
     |--------------------------------------------------------------------------
@@ -40,8 +40,8 @@ return [
         'secondary' => [
             'method' => env('WHMCS_AUTH_TYPE', 'token'),
             'url' => env('WHMCS_API_URL', 'https://host.foxcase.fr'),
-            'identifier' => env('WHMCS_API_IDENTIFIER', '6zOrWcOGImAeIRfhsdvCIOZNkYXr8V3N'),
-            'secret' => env('WHMCS_API_SECRET', '4UsvWX5UtKGyXbFq8BMz07hcoDXN3cpW'),
+            'identifier' => env('WHMCS_API_IDENTIFIER', 'TCbBaoMAqACtf6WyLobmK7HPmWgHsQuX'),
+            'secret' => env('WHMCS_API_SECRET', 'ze4zaYYafOrCOH2LEnWxHoa9uSj29TzU'),
             'access_key' => env('WHMCS_API_ACCESSKEY')
         ]
     ]
